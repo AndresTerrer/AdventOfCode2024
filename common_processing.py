@@ -30,3 +30,11 @@ def as_integer_array(line_list: list[str]) -> np.array:
     lines_as_integers = [re.findall(r"\d+", line) for line in line_list]
 
     return np.array(lines_as_integers).astype(int)
+
+
+def integer_lists(line_list: list[str]) -> list[list[int]]:
+    """
+    Try to interpret txt lines as lists of integers
+    """
+    data = [re.findall(r"\d+", line) for line in line_list]
+    return [[int(x) for x in record] for record in data]

@@ -12,4 +12,4 @@ Repo structure consists of
 - Common processing script for reading the data and what not.
 - Make_day_folder.py for creating a new folder with the same structure. Call it using  
 
->> python make_day_folder.py --day < day_number >
+> python make_day_folder.py --day < day_number >
