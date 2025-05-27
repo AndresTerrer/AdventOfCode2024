@@ -7,7 +7,9 @@ Repo structure consists of
 - Day_##/ folders to keep each day's data and code
     - test.txt with the short version of the data
     - data.txt with all data for the answer
-    - Notebook.ipynb, clear development, testing and text of the quiestons
+    - Notebook.ipynb, clear development, testing and text for the quiestons
 
 - Common processing script for reading the data and what not.
-- Make_day_folder.py for creating a new folder with the same structure. Call it using  >> python make_fay_folder.py --day < day_number >
+- Make_day_folder.py for creating a new folder with the same structure. Call it using  
+
+>> python make_day_folder.py --day < day_number >
